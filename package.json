@@ -1,6 +1,6 @@
 {
   "name": "glsl-edge-detection",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "Intensity of an edge at a given pixel of a sampler",
   "main": "index.js",
   "license": "MIT",
