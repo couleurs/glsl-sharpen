@@ -1,0 +1,34 @@
+{
+  "name": "glsl-edge-detection",
+  "version": "1.0.1",
+  "description": "Intensity of an edge at a given pixel of a sampler",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "glslify test.glsl | glsl-testify | tap-spec"
+  },
+  "author": {
+    "name": "Mike Feldstein",
+    "email": "msfeldstein@gmail.com"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "glsl-testify": "^1.0.0",
+    "glslify": "^1.6.0",
+    "tap-spec": "^0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/msfeldstein/glsl-map.git"
+  },
+  "keywords": [
+    "edge detection",
+    "glsl",
+    "glslify",
+    "shader"
+  ],
+  "homepage": "https://github.com/msfeldstein/glsl-edge-detection",
+  "bugs": {
+    "url": "https://github.com/msfeldstein/glsl-edge-detection/issues"
+  }
+}
